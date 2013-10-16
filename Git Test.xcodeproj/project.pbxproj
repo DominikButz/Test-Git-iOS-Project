@@ -18,6 +18,7 @@
 		B4B2473B180EB4340046CA46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B2473A180EB4340046CA46 /* Default-568h@2x.png */; };
 		B4B2473E180EB4340046CA46 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B2473C180EB4340046CA46 /* MainStoryboard.storyboard */; };
 		B4B24741180EB4340046CA46 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B24740180EB4340046CA46 /* CCViewController.m */; };
+		B4B24749180EBAE50046CA46 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B24748180EBAE50046CA46 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B4B2473D180EB4340046CA46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B4B2473F180EB4340046CA46 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		B4B24740180EB4340046CA46 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		B4B24747180EBAE50046CA46 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		B4B24748180EBAE50046CA46 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B4B2473F180EB4340046CA46 /* CCViewController.h */,
 				B4B24740180EB4340046CA46 /* CCViewController.m */,
 				B4B2472B180EB4340046CA46 /* Supporting Files */,
+				B4B24747180EBAE50046CA46 /* CCTest.h */,
+				B4B24748180EBAE50046CA46 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				B4B24731180EB4340046CA46 /* main.m in Sources */,
 				B4B24735180EB4340046CA46 /* CCAppDelegate.m in Sources */,
 				B4B24741180EB4340046CA46 /* CCViewController.m in Sources */,
+				B4B24749180EBAE50046CA46 /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
